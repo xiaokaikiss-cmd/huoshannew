@@ -1,0 +1,26 @@
+# 依赖
+node_modules
+
+# Git
+.git
+.gitignore
+
+# IDE
+.idea
+.vscode
+
+# 环境变量（敏感信息）
+.env
+.env.*
+!.env.example
+
+# 其他
+*.md
+README.md
+AGENTS.md
+DEPLOYMENT.md
+BAOTA_DEPLOYMENT.md
+.eslintrc.*
+eslint.config.mjs
+
+# .next目录会被整体复制，这是必需的

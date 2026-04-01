@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    ports:
+      - "3001:3000"
+    environment:
+      - HOST=0.0.0.0
+      - WETOKEN_API_KEY=sk-r3SSYzEONOmDlNQ05phP5KYKfNcc8XyhMhBGWArWXJb833kD
+      - SUPABASE_URL=https://zkbkvavddgwbpiigpiau.supabase.co
+      - SUPABASE_ANON_KEY=sb_publishable_VocQaRZ4XzU3HHpnkm4uTQ_yxGo9ADU
+    restart: unless-stopped
