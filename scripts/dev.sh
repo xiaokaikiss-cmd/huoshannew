@@ -1,5 +1,5 @@
 #!/bin/bash
-set -Eeuo pipefail
+set -Eeo
 
 
 PORT=5000
